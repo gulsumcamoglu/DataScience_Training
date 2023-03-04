@@ -1,0 +1,13 @@
+Binary Search Tree Project for [7, 5, 1, 8, 3, 6, 0, 9, 4, 2].
+
+                        7     root=7, y = 8(right) , z = 5(left)
+                    5       8     root=8, y = 9(right) ; root=5, y = 6(right) , z = 1(left)
+                 1      6       9   root=1, y = 3(right) , z = 0(left) ; root=6  ; root=9
+              0    3                root=0, y = 2(right) ; root=3, y = 4(right) 
+                 2    4             root=2 ; root=4
+                 
+                 Big-O(logn) - average insertion and search
+                 Big-O(n)  - worst case insertion and search
+          
+
+
